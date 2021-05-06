@@ -1,8 +1,7 @@
-package br.com.cruvinel.apialgoritmodijkstra.service.impl;
+package br.com.cruvinel.apialgoritmodijkstra;
 
 import br.com.cruvinel.apialgoritmodijkstra.model.Graph;
 import br.com.cruvinel.apialgoritmodijkstra.model.Node;
-import br.com.cruvinel.apialgoritmodijkstra.service.CalculateShortestPathService;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -11,7 +10,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 @Service
-public class CalculateShortestPathServiceImpl implements CalculateShortestPathService {
+public class CalculateShortestPath {
 
     public Graph calculateShortestPathFromSource(Graph graph, Node source) {
         source.setDistance(0);
