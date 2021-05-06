@@ -5,7 +5,7 @@ Implementação do algoritmo de Dijkstra na linguagem JAVA
 
 **Descrição do trabalho**
 
-Implementar um programa em C, que localize o melhor caminho em entre dois endereços (origem e destino) de um bairro qualquer da cidade de Salvador, utilizando o algoritmo de Dijkstra. O programa a ser implementado deverá:
+Implementar um programa em JAVA, que localize o melhor caminho em entre dois endereços (origem e destino) de um bairro qualquer da cidade de Salvador, utilizando o algoritmo de Dijkstra. O programa a ser implementado deverá:
 
 Construir um grafo dirigido e ponderado que represente o bairro escolhido;
 
